@@ -1,0 +1,46 @@
+        @media(max-width:500px) {
+            html {
+                font-size: 25%;
+            }
+            /* navbar start */
+            nav {
+                height: 50px;
+            }
+            nav .nav-backimage {
+                height: 50px;
+                line-height: 50px;
+            }
+            nav .nav-backimage ul li {
+                padding: 0px 5px;
+            }
+            nav .nav-backimage ul span img {
+                height: 40px;
+                width: 40px;
+            }
+            /* navbar end */
+            /* content start */
+            .content-main {
+                height: 280px;
+            }
+            .content-main .content-dark {
+                height: 280px;
+                padding: 30px 10px;
+            }
+            .content-main .content-dark p {
+                margin: 20px 0;
+            }
+            .content-main .content-dark button {
+                padding: 6px 8px;
+            }
+            /* content start */
+            .bg-image .content-img {
+                padding-left: 5%;
+            }
+            .content-voucher {
+                height: 275px;
+            }
+            .bg-image .content-img img {
+                height: 150px;
+                width: 100px;
+            }
+        }
